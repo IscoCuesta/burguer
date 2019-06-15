@@ -7,8 +7,8 @@ var burguers = {
       });
     },
     // The variables cols and vals are arrays.
-    create: function(cols, vals, cb) {
-      orm.create("burguers", cols, vals, function(res) {
+    create: function(tables, vals, cb) {
+      orm.create("burguers", vals, function(res) {
         cb(res);
       });
     },
