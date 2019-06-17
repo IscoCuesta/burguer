@@ -1,8 +1,17 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(/images/gif.gif);
+  color: gold !important;
 }
 
 a {
   color: #00B7FF;
+}
+
+.eaten, .menu {
+  background-color: beige !important;
+  opacity: .75 !important;
+  z-index: 1 !important;
+  color: green
 }
